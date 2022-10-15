@@ -1,8 +1,8 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Create a report to help us improve VBE_Colours
+title: Your bug report title
+labels: bug
 assignees: ''
 
 ---
@@ -23,16 +23,14 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Please complete the following information:**
+- VBE_Colours version: (e.g. 1.0.0.0)
+- OS: (e.g. Windows 10)
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**If the problem is within a specific host application, then please advise**
+- Host application: (e.g. Microsoft Excel)
+- Host application version: (e.g. 2019, 365)
+- Host application bitness, if known: (e.g. 32 bit, 64 bit)
 
 **Additional context**
 Add any other context about the problem here.
