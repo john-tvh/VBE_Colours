@@ -102,7 +102,7 @@ For this reason it is important that you save your colour scheme so that when th
 
 If you want to delete all colour modifications from both your VBE7.DLL file and from the Registry:
 - Using VBE_Colours: select the 'Reset colours' option (via the 'Manage' button … including setting the Registry values to 'default', if asked) then apply them
-- Without using VBE_Colours: replace the modified version of VBE7.DLL with the backup version you made. And either delete the three Registry values (see [Link between Registry values and the colours defined in VBE7.DLL](https://github.com/john-tvh/VBE_Colours/edit/main/README.md#link-between-registry-values-and-the-colours-defined-in-vbe7dll)) or use the colour drop-downs in the Editor Format tab of the Options dialog in the VBE to select the VBE default colours.
+- Without using VBE_Colours: replace the modified version of VBE7.DLL with the backup version you made. And either delete the three Registry values (see [Link between Registry values and the colours defined in VBE7.DLL](https://github.com/john-tvh/VBE_Colours/blob/main/README.md#link-between-registry-values-and-the-colours-defined-in-vbe7dll)) or use the colour drop-downs in the Editor Format tab of the Options dialog in the VBE to select the VBE default colours.
 
 ## Donate
 
