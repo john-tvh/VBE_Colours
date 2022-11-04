@@ -14,16 +14,6 @@ VBE_Colours is a small application that adjusts the colours shown in the code wi
 ## VBE_Colours in action
 ![vbe_colours_2](https://user-images.githubusercontent.com/97969304/196001152-8d9c70ae-6454-46e0-92e7-eb2429e4415f.png)
 
-# Limitations
-
-VBE_Colours works only with VBA 7.1 (either 32 or 64 bit) … if you are using the VBE hosted by an Office application, VBA 7.1 is used in Office 2013 or newer. VBE_Colours will not work with VBA 7.0 or older.
-
-VBE_Colours SHOULD work no matter which host app is being used. I have tested it with Excel, Word, Outlook and PowerPoint as they are the VBA-hosting apps that I use frequently. VBE_Colours SHOULD work with other Office apps that host VBA (eg Access, Visio etc) and also with non-Office apps that host VBA (eg AutoCAD, CorelDraw etc) … but I cannot guarantee this as I do not own a copy of those to test with (I'd be interested to learn from any users of those apps if VBE_Colours does indeed work with those apps).
-
-In order to patch (ie write bytes to) the VBE7.DLL file, VBE_Colours must run (and install) with admin privileges.
-
-As Excel, Word, Outlook and PowerPoint are my area of expertise then these notes relate particularly to the VBE when used within those applications.
-
 # To download and install VBE_Colours
 
 The latest version of VBE_Colours is 1.0.0.1 - click to [download](https://github.com/john-tvh/VBE_Colours/wiki) it (from the Wiki page).
@@ -106,6 +96,16 @@ There is a bug in VBE 7.1 (and perhaps in older versions) in that it will load p
 To demonstrate this, in any VBA-enabled application, start the VBE with the default colours; then using the Options dialog, change the breakpoint background colour and the breakpoint indicator colour to, say, green and then OK the dialog; add a breakpoint and you will see the colours you chose (green if that is what you selected); now close and re-open your application, go into the VBE and add a breakpoint and you will see the background colour has been set to the colour you chose (eg green) but the indicator colour has reverted to the default maroon colour.
 
 VBE_Colours will resolve this for you by setting the IndicatorColors Registry value and so ensuring that the indicator colours you choose with VBE_Colours are correctly shown in the VBE.
+
+## Limitations
+
+VBE_Colours works only with VBA 7.1 (either 32 or 64 bit) … if you are using the VBE hosted by an Office application, VBA 7.1 is used in Office 2013 or newer. VBE_Colours will not work with VBA 7.0 or older.
+
+VBE_Colours SHOULD work no matter which host app is being used. I have tested it with Excel, Word, Outlook and PowerPoint as they are the VBA-hosting apps that I use frequently. VBE_Colours SHOULD work with other Office apps that host VBA (eg Access, Visio etc) and also with non-Office apps that host VBA (eg AutoCAD, CorelDraw etc) … but I cannot guarantee this as I do not own a copy of those to test with (I'd be interested to learn from any users of those apps if VBE_Colours does indeed work with those apps).
+
+In order to patch (ie write bytes to) the VBE7.DLL file, VBE_Colours must run (and install) with admin privileges.
+
+As Excel, Word, Outlook and PowerPoint are my area of expertise then these notes relate particularly to the VBE when used within those applications.
 
 # No, or multiple, VBE7.DLL files
 
