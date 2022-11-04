@@ -26,11 +26,9 @@ As Excel, Word, Outlook and PowerPoint are my area of expertise then these notes
 
 # To download and install VBE_Colours
 
-The latest version of VBE_Colours is 1.0.0.0 - click to [download](https://github.com/john-tvh/VBE_Colours/wiki) it.
+The latest version of VBE_Colours is 1.0.0.1 - click to [download](https://github.com/john-tvh/VBE_Colours/wiki) it.
 
-Depending on the browser / settings you are using, you may see a message in your browser window that "VBE_Colours_Setup.zip is not commonly downloaded and may be dangerous" - please select the Keep / Proceed / OK option.
-
-Once downloaded to your device (the download is a .zip file), extract and then double-click the VBE_Colours_Setup.exe file. Your device will display one or more warnings that you will have to accept (if you see a 'Windows protected your PC' message without an option to continue to install, click on 'More info' then 'Run anyway') before you see the VBE_Colours installation wizard which will guide you through the rest of the installation process.
+VBE_Colours is digitally signed. To ensure you have downloaded a valid and safe file, when installing please ensure the publisher is 'John Mallinson' (ie me ... the owner of this site!). Once downloaded to your device (the download is a .zip file), extract and then double-click the VBE_Colours_Setup.exe file. Depending on your device settings and the number of prior downloads of this specific version of VBE_Colours, your device may display one or more warnings that you will have to accept before you see the VBE_Colours installation wizard which will guide you through the rest of the installation process.
 
 Once installed, VBE_Colours will offer to run immediately, or you can run it from your Windows 'Start' menu.
 
